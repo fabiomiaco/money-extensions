@@ -4,6 +4,25 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>FM.MoneyExtensions</PackageId>
+    <Version>1.0.0</Version>
+    <License>MIT</License>
+    <Authors>Fábio Miaço</Authors>
+    <Company>miaco.dev</Company>
+    <PackageDescription>Package Description</PackageDescription>
+    <Description>Description</Description>
+    <RepositoryUrl>https://github.com/fabiomiaco/money-extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/fabiomiaco/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>money;int;decimal;converted</PackageTags>    
+    <Title>MoneyExtensions</Title>
+    <Summary>Summary Project</Summary>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
